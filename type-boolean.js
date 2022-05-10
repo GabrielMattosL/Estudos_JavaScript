@@ -1,10 +1,12 @@
-const primeiroNumero = 5;
-const segundoNumero = 5;
-const cadastroAtivado = true
+// boolean em números
+const primeiroNumero = 32;
+const segundoNumero = 30;
 
-//console.log(primeiroNumero === segundoNumero);
+console.log(primeiroNumero === segundoNumero);
 
-const texto1 = "Alura";
-const texto2 = "a";
+//boolean em palavras
+
+const texto1 = "Gabriel";
+const texto2 = "Alura";
 
 console.log(texto1 === texto2)

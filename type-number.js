@@ -1,4 +1,4 @@
-//tipo Number
+//Variaveis do Tipo *Number*
 
 const meuNumero = 3;
 
@@ -9,17 +9,8 @@ const operacaoMatematica = primeiroNumero * segundoNumero;
 
 console.log(operacaoMatematica);
 
-//ponto flutuante
+    //NaN
+    const primeiroFator = "Gabriel";
+    const segundoFator = 2;
 
-const numeroPontoFlutuante = 3.3;
-const pontoFlutuanteSemZero = .5;
-
-const novaOperacao = primeiroNumero / numeroPontoFlutuante;
-
-console.log(novaOperacao);
-
-// NaN -> Not a Number (não é um número)
-
-const alura = "Alura";
-
-console.log(alura * primeiroNumero)
+    console.log(primeiroFator * segundoFator);
