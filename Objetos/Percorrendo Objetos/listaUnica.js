@@ -26,7 +26,7 @@ const clientes = [
         dependentes: [
         {
             nome: "Ana Beatriz",
-            parentesco: "Filha",
+            parentesco: "filha",
             dataNasc: "04/06/2001"
         }],
     }
@@ -34,4 +34,4 @@ const clientes = [
 
 const listaDependentes = [...clientes[0].dependentes, ...clientes[1].dependentes]
 
-console.log(listaDependentes)
+console.table(listaDependentes)
