@@ -30,5 +30,6 @@ function oferecerSeguro(obj){
         console.log(`Oferta de seguro de vida para ${obj.nome}`)
     }
 }
-
+console.log(Object.values(cliente))
+console.log(Object.entries(cliente))
 oferecerSeguro(cliente)
