@@ -1,9 +1,28 @@
-const precosLivros = [25, 15, 30, 50, 45, 20];
-
-let maisBarato = 0;
-
-for (let atual = 0; atual < precosLivros.length; atual++) {
-    if (precosLivros[atual] < precosLivros[maisBarato]) {
-        maisBarato = atual
+const precosLivros = [
+    {
+        titulo: "JavaScript",
+        preco: 25,
+    }, 
+    {
+        titulo: "PHP",
+        preco: 15,
+    }, 
+    {
+        titulo: "Java",
+        preco: 30,
+    }, 
+    {
+        titulo: "Elixir",
+        preco: 50,
+    }, 
+    {
+        titulo: "Go",
+        preco: 45,
+    }, 
+    {
+        titulo: "Python",
+        preco: 20,
     }
-} return console.log(`O livro mais barato custa R$${precosLivros[maisBarato]}`)
+];
+
+module.exports = precosLivros;
