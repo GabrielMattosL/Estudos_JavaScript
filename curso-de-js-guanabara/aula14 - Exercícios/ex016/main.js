@@ -20,15 +20,3 @@ function contar() {
         }
     }
 }
-
-var contagem = inicio
-while(contagem <= fim) {
-    contagem = contagem + passo
-    console.log(contagem);
-}
-preparado.innerHTML = 'Aqui está'
-txt.innerHTML = `${contagem} => `
-
-// var inicio = 5;
-// var fim = 12;
-// var passo = 2;
